@@ -18,8 +18,11 @@
   </modules>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<maven.compiler.target>23</maven.compiler.target>
+	<maven.compiler.source>23</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
   </properties>
+	
   <build>
     <plugins>
       <plugin>
